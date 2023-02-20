@@ -54,7 +54,7 @@
             {
                 Console.Write(s + "-");
             }
-            Console.WriteLine();
+            //Console.WriteLine();
             #endregion
         }
     }
