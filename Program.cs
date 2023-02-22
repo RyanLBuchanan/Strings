@@ -30,30 +30,30 @@
             #endregion
 
             #region StringManipulation
-            String typo = "rbto";
-            typo = typo.Insert(1, "o");
-            typo = typo.Insert(3, "o");
-            typo = typo.Remove(typo.Length - 1);
-            Console.WriteLine("Edited typo: " + typo + "\n");
+            //String typo = "rbto";
+            //typo = typo.Insert(1, "o");
+            //typo = typo.Insert(3, "o");
+            //typo = typo.Remove(typo.Length - 1);
+            //Console.WriteLine("Edited typo: " + typo + "\n");
 
-            Console.WriteLine("Robot starts with \"first\": " + typo.StartsWith("first"));
-            Console.WriteLine("Robot ends with \"ot\": " + typo.EndsWith("ot"));
-            Console.ReadLine();
+            //Console.WriteLine("Robot starts with \"first\": " + typo.StartsWith("first"));
+            //Console.WriteLine("Robot ends with \"ot\": " + typo.EndsWith("ot"));
+            //Console.ReadLine();
 
-            Console.WriteLine("Substring: " + typo.Substring(2));
-            Console.ReadLine();
+            //Console.WriteLine("Substring: " + typo.Substring(2));
+            //Console.ReadLine();
 
-            Console.WriteLine("\"Robot\" contains \"o\": " + typo.Contains("o"));
-            typo = typo.Replace("o", "i");
-            Console.WriteLine("Not anymore, it doesn't! " + typo);
-            Console.ReadLine();
+            //Console.WriteLine("\"Robot\" contains \"o\": " + typo.Contains("o"));
+            //typo = typo.Replace("o", "i");
+            //Console.WriteLine("Not anymore, it doesn't! " + typo);
+            //Console.ReadLine();
 
-            String spaceDelimitedString = "This is a space-delimited string. By which I mean a sentence.";
-            String[] stringArray = spaceDelimitedString.Split(new char[] { ' ' });
-            foreach (String s in stringArray)
-            {
-                Console.Write(s + "-");
-            }
+            //String spaceDelimitedString = "This is a space-delimited string. By which I mean a sentence.";
+            //String[] stringArray = spaceDelimitedString.Split(new char[] { ' ' });
+            //foreach (String s in stringArray)
+            //{
+            //    Console.Write(s + "-");
+            //}
             //Console.WriteLine();
             #endregion
         }
